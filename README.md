@@ -2,18 +2,18 @@
 Computer Vision Term Project - Chest X-ray Images for pneumonia detection with deep learning
 
 ## Colab ipynb Section Breakdown
-#### Drive Mount and Dataset Unzip
-Contains cell blocks to link google drive and unzip dataset from drive
-#### Common Cells for both Models
-Contains cell blocks for CONSTANTS, Helper Functions, Imports, Optimizer, Data Generator, Class Weights,Test Data Load
-#### Resnet50 (Base Model)
-Contains cell blocks to define model layers, compile model, train model & load best weights (if required)
-#### Resnet50 (Summary)
-Contains cell blocks to show Test Loss/Accuracy, Training/Validation Graphs, Confusion Matrix, Classification Report & Visual Results
-#### Resnet50 + CBAM (Enhanced Model)
-Contains cell blocks to define model layers, compile model, train model & load best weights (if required)
-#### Resnet50 + CBAM (Summary)
-Contains cell blocks to show Test Loss/Accuracy, Training/Validation Graphs, Confusion Matrix, Classification Report & Visual Results
+#### 1. Drive Mount and Dataset Unzip
+  Contains cell blocks to link google drive and unzip dataset from drive
+#### 2. Common Cells for both Models
+  Contains cell blocks for CONSTANTS, Helper Functions, Imports, Optimizer, Data Generator, Class Weights,Test Data Load
+#### 3. Resnet50 (Base Model)
+  Contains cell blocks to define model layers, compile model, train model & load best weights (if required)
+#### 4. Resnet50 (Summary)
+  Contains cell blocks to show Test Loss/Accuracy, Training/Validation Graphs, Confusion Matrix, Classification Report & Visual Results
+#### 5. Resnet50 + CBAM (Enhanced Model)
+  Contains cell blocks to define model layers, compile model, train model & load best weights (if required)
+#### 6. Resnet50 + CBAM (Summary)
+  Contains cell blocks to show Test Loss/Accuracy, Training/Validation Graphs, Confusion Matrix, Classification Report & Visual Results
 
 ## Pretained Model weights
 ##### Google Drive Link: https://drive.google.com/drive/folders/1kHQN72iSbZWZSVlMl3N4A-j4BqzEw7cK?usp=sharing
