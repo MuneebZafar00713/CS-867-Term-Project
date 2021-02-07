@@ -1,15 +1,29 @@
 # CS-867-Term-Project
 Computer Vision Term Project - Chest X-ray Images for pneumonia detection with deep learning
 
+## Colab ipynb Section Breakdown
+##### Drive Mount and Dataset Unzip
+Contains cell blocks to link google drive and unzip dataset from drive
+##### Common Cells for both Models
+Contains cell blocks for CONSTANTS, Helper Functions, Imports, Optimizer, Data Generator, Class Weights,Test Data Load
+##### Resnet50 (Base Model)
+Contains cell blocks to define model layers, compile model, train model & load best weights (if required)
+##### Resnet50 (Summary)
+Contains cell blocks to show Test Loss/Accuracy, Training/Validation Graphs, Confusion Matrix, Classification Report & Visual Results
+##### Resnet50 + CBAM (Enhanced Model)
+Contains cell blocks to define model layers, compile model, train model & load best weights (if required)
+##### Resnet50 + CBAM (Summary)
+Contains cell blocks to show Test Loss/Accuracy, Training/Validation Graphs, Confusion Matrix, Classification Report & Visual Results
+
 ## Pretained Model weights
 ##### Google Drive Link: https://drive.google.com/drive/folders/1kHQN72iSbZWZSVlMl3N4A-j4BqzEw7cK?usp=sharing
 OR
-##### Download best_base_weights.hdf5 and best_enhanced_weights.hdf5 files (found in main branch -> model-weights folder)
-##### Upload same files in Term_Project.ipynb co-lab and load weights using blocks with following headings:
+##### Download Model Weights (found in main branch -> model-weights folder)
+##### Upload to Term_Project.ipynb co-lab and load weights using blocks with following headings:
 Load Base Model Weights (if required) 
 Load Enhanced Model Weights (if required)
 
-## Replicate Results Steps
+## Steps to Replicate Results
 1.  Open Term_Project.ipynb in co-lab
 2.  Upload archive.zip (https://www.kaggle.com/tolgadincer/labeled-chest-xray-images) to google-drive
 3.  Or use already uploaded dataset on google drive (https://drive.google.com/file/d/1xYceBz1JMSD4TDNQMQ2yMDYbe4oHZTIt/view?usp=sharing)
