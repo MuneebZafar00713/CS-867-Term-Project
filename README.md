@@ -2,17 +2,17 @@
 Computer Vision Term Project - Chest X-ray Images for pneumonia detection with deep learning
 
 ## Colab ipynb Section Breakdown
-### Drive Mount and Dataset Unzip
+#### Drive Mount and Dataset Unzip
 Contains cell blocks to link google drive and unzip dataset from drive
-### Common Cells for both Models
+#### Common Cells for both Models
 Contains cell blocks for CONSTANTS, Helper Functions, Imports, Optimizer, Data Generator, Class Weights,Test Data Load
-### Resnet50 (Base Model)
+#### Resnet50 (Base Model)
 Contains cell blocks to define model layers, compile model, train model & load best weights (if required)
-### Resnet50 (Summary)
+#### Resnet50 (Summary)
 Contains cell blocks to show Test Loss/Accuracy, Training/Validation Graphs, Confusion Matrix, Classification Report & Visual Results
-### Resnet50 + CBAM (Enhanced Model)
+#### Resnet50 + CBAM (Enhanced Model)
 Contains cell blocks to define model layers, compile model, train model & load best weights (if required)
-### Resnet50 + CBAM (Summary)
+#### Resnet50 + CBAM (Summary)
 Contains cell blocks to show Test Loss/Accuracy, Training/Validation Graphs, Confusion Matrix, Classification Report & Visual Results
 
 ## Pretained Model weights
